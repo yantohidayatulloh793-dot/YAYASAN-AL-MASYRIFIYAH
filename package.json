@@ -1,0 +1,20 @@
+{
+  "name": "yayasan-absensi-app",
+  "version": "1.0.0",
+  "description": "Aplikasi manajemen absensi YAYASAN AL MASYRIFIYAH",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "absensi",
+    "attendance",
+    "yayasan"
+  ],
+  "author": "YAYASAN AL MASYRIFIYAH",
+  "license": "ISC"
+}
